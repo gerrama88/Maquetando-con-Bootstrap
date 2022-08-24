@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn:hover {
+  color: white;
+}
+.container-fluid img {
+  width: 75px;
+}
+
+/* FOOTER */
+.fa-instagram:hover{
+color: rgba(202, 20, 156, 0.938);
+}
+
+.fa-facebook-f:hover{
+color: rgba(9, 9, 247, 0.897);
+}
+
+.fa-whatsapp:hover{
+  color: darkgreen;
+}
+/*  */
