@@ -10,6 +10,20 @@
   width: 75px;
 }
 
+.color-boton{
+  background-color: #141619f0;
+  color: darkgoldenrod;
+}
+
+.color-boton:hover {
+  color: white;
+  background-color: goldenrod;
+  border-color: goldenrod;
+}
+
+.row{
+  justify-content: center;
+}
 /* FOOTER */
 .fa-instagram:hover{
 color: rgba(202, 20, 156, 0.938);
