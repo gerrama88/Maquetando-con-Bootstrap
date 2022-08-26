@@ -3,24 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-.btn:hover {
-  color: white;
-}
+
+/* NAV */
 .container-fluid img {
-  width: 75px;
+  width: 100px;
 }
 
-.color-boton{
-  background-color: #141619f0;
-  color: darkgoldenrod;
-}
-
-.color-boton:hover {
-  color: white;
-  background-color: goldenrod;
-  border-color: goldenrod;
-}
-
+/* INDEX */
 .marcas-index{
   display: flex;
   flex-wrap: wrap;
@@ -38,13 +27,16 @@
 }
 
 .row{
-  justify-content: space-evenly;
+  justify-content: center;
 }
+
+/* CARDS-BICICLETAS */
 
 .card{
   background-color: rgba(226, 225, 225, 0.993);
   margin: 5px;
-}
+  padding: 5px;
+  }
 
 /* FOOTER */
 .fa-instagram:hover{
