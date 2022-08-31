@@ -27,8 +27,11 @@
   height: 100vh;
 }
 
+/* APLICADO A VARIOA CONTENEDORES/ SOLUCIONA SCROLL PARA RESPOSIVE */
 .row {
   justify-content:center;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 /* FORMATO H1 PARA TODOS LOS HTML */
@@ -113,6 +116,9 @@ padding-bottom: 20px;
   max-height: 70vh;
 }
 
+.text-center{
+  color: white;
+}
 
 /* BOTÓN (X) */
 
@@ -145,6 +151,21 @@ padding-bottom: 20px;
   text-align: center;
 }
 
+/* BOTÓN FIXED DE WP */
+.Wap {
+  background-color: green;
+  color: white;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 9999999;
+}
+
 
 /* FOOTER */
 .fa-instagram:hover {
@@ -159,19 +180,7 @@ padding-bottom: 20px;
   color: darkgreen;
 }
 
-.Wap {
-  background-color: green;
-  color: white;
-  display: inline-block;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  text-align: center;
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-  z-index: 9999999;
-}
+
 .footer-ul {
   list-style: none;
 }
