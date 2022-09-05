@@ -27,7 +27,7 @@
   height: 100vh;
 }
 
-/* APLICADO A VARIOA CONTENEDORES/ SOLUCIONA SCROLL PARA RESPOSIVE */
+/* APLICADO A VARIOS CONTENEDORES/ SOLUCIONA SCROLL PARA RESPOSIVE */
 .row {
   justify-content:center;
   margin-right: 0;
@@ -41,7 +41,8 @@ h1{
   text-align: center;
   padding: 10px 0;
   font-size: 40px;
-  color: rgba(87, 86, 84, 0.993);
+  color: rgba(255, 255, 255, 0.993);
+  font-weight: bold;
 }
 
 /* GALERIA BICILETAS/ACCESORIOS */
@@ -170,6 +171,10 @@ input {
 }
 input:focus {
   transform: scale(1.1);
+}
+
+label{
+  color: white;
 }
 
 /* BOTÓN FIXED DE WP */
